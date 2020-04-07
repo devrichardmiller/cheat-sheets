@@ -22,3 +22,6 @@
             take(2)
         ).subscribe(console.log);
 ```
+  - use map() for stream data transformations
+  - use tap() for debugging and other operations that do not impact data stream
+  - use take() to specify the number of date items to emit through stream

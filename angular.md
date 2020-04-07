@@ -12,9 +12,12 @@
   - to update the cli, you first must uninstall the cli
 - npm install -g @angular/cli@latest
   - installs the latest cli
+- npm install
+  - installs all of the packages indicated in the project's package.json file
+  - see also: "yarn install" (as an alternative to npm)
 - Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
   - used this command to get the cli working?? No idea why it worked
-  - See [this link]: http://www.techtutorhub.com/article/Getting-ng-File-AppData-Roaming-npm-ng-ps1-cannot-be-loaded-The-file-npm-ng-ps1-is-not-digitally-signed-Angular-Error-when-running-commands/62
+  - See [this link](http://www.techtutorhub.com/article/Getting-ng-File-AppData-Roaming-npm-ng-ps1-cannot-be-loaded-The-file-npm-ng-ps1-is-not-digitally-signed-Angular-Error-when-running-commands/62)
 - ng new tour-of-heroes
   - creates a new angular project in current folder with the given name
 - npm start
