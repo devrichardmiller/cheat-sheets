@@ -24,3 +24,6 @@
   - runs ng serve, spinning up app on port 4200 in your browser
 - ng update @angular/cli @angular/core
   - upgrades your current application to the lastest v of angular. (may need to update cli first?)
+- ng generate component heroes
+  - syntax example for terminal (cli) component generation.
+  
