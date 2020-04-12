@@ -4,25 +4,25 @@
 
 - Obersable
   - do not use the common procedural pattern in service
-```typescript
+  ```typescript
         getProducts(): Observable<Product[]> {
           return this.http.get<product[]>(this.productsUrl)
             .pipe(
               catchError(this.handleError)
             );
         }
-```
+  ```
   - instead use the declarative pattern
-```typescript
+  ```typescript
         products$ = this.http.get<product[]>(this.productsUrl)
           .pipe(
             catchError(this.handleError)
           );
-```    
+  ```    
   - then, in the component ...
-```typyescript
+  ```typyescript
         products$ = this.productService.products$
-```
+  ```
 - Observer
   - a JavaScript object with three methods: Next(), Error(), and Complete()
   - these methods are typically passed as an (anonymous) object with (anonymous) callback methods:
