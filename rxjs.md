@@ -46,3 +46,5 @@
   - use tap() for debugging and other operations that do not impact data stream
   - use take() to specify the number of date items to emit through stream
   - use catchError(someFunction) to handle exceptions in prior operation
+  - use filter() to reduce emit only qualified items to the stream
+  - use shareReplay(1) to emit the last retrieval (from cache), rather than re-retrieval
