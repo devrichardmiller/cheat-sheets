@@ -48,3 +48,11 @@
   - use catchError(someFunction) to handle exceptions in prior operation
   - use filter() to reduce emit only qualified items to the stream
   - use shareReplay(1) to emit the last retrieval (from cache), rather than re-retrieval
+- Higher-Order Mapping Operators
+  - See [this link](https://blog.angular-university.io/rxjs-higher-order-mapping/)
+  - use combineLatest() to produce a third stream from two or more streams
+  - use merge()
+  - use mergeMap() 
+  - use forkJoin() to get multiple observables, but only once all observables are complete
+  - use concatMap()
+  - use switchMap()
