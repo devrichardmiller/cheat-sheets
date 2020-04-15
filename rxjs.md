@@ -33,8 +33,8 @@
             complete: () => console.log(`Complete!`),
         };
 ```
-    - pass this object to the obervable's "subscribe" method to create a subscription
-    - "pipe" transformations reside with the observable and take rxjs operators:
+  - pass this object to the obervable's "subscribe" method to create a subscription
+  - "pipe" transformations reside with the observable and take rxjs operators:
 ```javascript
         someObservable.pipe(
             map(item => item * 2),
