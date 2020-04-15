@@ -26,7 +26,7 @@
 - Observer
   - a JavaScript object with three methods: Next(), Error(), and Complete()
   - these methods are typically passed as an (anonymous) object with (anonymous) callback methods:
-  ```javascript
+  ```typescript
           const someObserver = {
               next: event => console.log(`You just typed ${event.target.value}!`),
               error: err => console.log(`Oops... ${err}`),
