@@ -33,8 +33,8 @@
             complete: () => console.log(`Complete!`),
         };
 ```
-  - pass this object to the obervable's "subscribe" method to create a subscription
-  - "pipe" transformations reside with the observable and take rxjs operators:
+    - pass this object to the obervable's "subscribe" method to create a subscription
+    - "pipe" transformations reside with the observable and take rxjs operators:
 ```javascript
         someObservable.pipe(
             map(item => item * 2),
@@ -42,6 +42,7 @@
             take(2)
         ).subscribe(console.log);
 ```
+- Common Operators
   - use map() for stream data transformations
   - use tap() for debugging and other operations that do not impact data stream
   - use take() to specify the number of date items to emit through stream
