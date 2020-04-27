@@ -1,5 +1,17 @@
 # Git / GitHub Cheat-Sheet
 
+## Installation
+
+### Ubuntu
+- Update index package
+  - sudo apt update
+- Install git
+  - sudo apt install git
+- Check version
+  - git --version
+- More information available [here](https://linuxize.com/post/how-to-install-git-on-ubuntu-18-04/)
+
+
 ## Terminal Commands
 
 - git clone https://github.com/devrichardmiller/hello-world.git

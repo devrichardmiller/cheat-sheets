@@ -12,6 +12,11 @@
   - to update the cli, you first must uninstall the cli
 - npm install -g @angular/cli@latest
   - installs the latest cli
+  - for Mac and Linux users, directory permissions are needed in order to install the cli
+    - terminal: whomami  [this gives the current username]
+    - terminal: sudo chown -R username /usr/local/lib/
+    - terminal: sudo chown -R username /usr/local/bin/
+    - terminal: sudo chown -R username /usr/local/share
 - npm install
   - installs all of the packages indicated in the project's package.json file
   - see also: "yarn install" (as an alternative to npm)
