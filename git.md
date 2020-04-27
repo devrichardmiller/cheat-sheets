@@ -20,6 +20,9 @@
 - git config --global user.email dev.richard.miller@gmail.com
   - sets local git repo for tracking who made what changes
   - (bit confused why this is not reflected in the remote repo, aka GitHub)
+- git config --global credential.helper store
+  - then enter: git pull
+  - this will ask for username and password. Once entered, these credentials are then stored for all subsequent syncs with repo
 - git init
   - creates a local repository in the current directory
 - git add .
