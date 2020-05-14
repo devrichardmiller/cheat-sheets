@@ -36,6 +36,10 @@
   - shows the current remote repo configuration (with the local repo of the given folder)
 - git remote remove origin
   - removes linkage between the current local repo and the remote repo
+- git push -u origin rcm-bugs-05-14-2020
+  - pushes local branch to remote branch (-u flag publishes the remote branch, if it does not exist)
+- git push origin rcm-bugs-05-14-2020
+  - merges branch to master (with no -u flag, command does not perform remote branch publication)
 - git remote add origin https://github.com/devrichardmiller/tour-of-heroes.git
   - connects the local repo in current folder with a remote (GitHub) repo
 - git push -u origin master
