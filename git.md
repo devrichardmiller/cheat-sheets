@@ -23,6 +23,8 @@
 - git config --global credential.helper store
   - then enter: git pull
   - this will ask for username and password. Once entered, these credentials are then stored for all subsequent syncs with repo
+- git config --list --show-origin
+  - shows current configuration information
 - git remote show origin
   - returns verbose information on remote server, including brances, etc
   - for just the remote url, execute: git config --get remote.origin.url 
