@@ -41,7 +41,7 @@
 - git push -u origin rcm-bugs-05-14-2020
   - pushes local branch to remote branch (-u flag publishes the remote branch, if it does not exist)
 - git push origin rcm-bugs-05-14-2020
-  - merges branch to master (with no -u flag, command does not perform remote branch publication)
+  - same as above, but without publishing the remote branch (assumes it exists already)
 - git remote add origin https://github.com/devrichardmiller/tour-of-heroes.git
   - connects the local repo in current folder with a remote (GitHub) repo
 - git push -u origin master
