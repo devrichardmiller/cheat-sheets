@@ -2,7 +2,7 @@
 
 ## Fundamental Concepts
 
-- Obersable
+- Obsersable
   - do not use the common procedural pattern in service
   ```typescript
         getProducts(): Observable<Product[]> {
