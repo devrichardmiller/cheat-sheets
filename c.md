@@ -11,3 +11,11 @@
 - Link all obj files (creates executable)
   - link *.obj /out:my-c-app.exe
   - "link" pulls together the file dependencies under a single executable
+
+## Variables
+- Variables in C are strongly typed
+  - int someNumber = 5;
+- Strings require library extension
+  - #include <string>
+- Static variable declarations cause the value to persist
+  - static string someString = "hello Sam!";
