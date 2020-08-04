@@ -16,7 +16,7 @@
 - Variables in C are strongly typed
   - int someNumber = 5;
 - Strings require library extension
-  - #include <<string>>
+  - ```html #include <string>> ```
 - Static variable declarations cause the value to persist
   - static string someString = "hello Sam!";
 - Beware: Variables remain on the stack after function execution
