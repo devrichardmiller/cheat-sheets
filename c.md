@@ -21,3 +21,4 @@
   - static string someString = "hello Sam!";
 - Beware: Variables remain on the stack after function execution
   - Variables remain in scope (I think), but do not get cleared unless they are "trampled" by another declaration
+- Variables declared outside of a function are scoped to the entire file
