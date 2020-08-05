@@ -23,3 +23,13 @@
   - Variables remain in scope (I think), but do not get cleared unless they are "trampled" by another declaration
 - Variables declared outside of a function are scoped to the entire file
   - Always declare such file-scoped variables as "static" and with an initial value, to avoid stack-trampling
+- Types
+  - int i = 123;
+  - float f = 123.44f;
+  - double d = 123.55;
+  - char c = 'm';
+  - unsigned ui = 123u;
+  - short int si = 123;
+  - long int li =123;
+  
+  
