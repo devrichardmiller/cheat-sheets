@@ -48,3 +48,17 @@
   - syncs local committed changes to the master repo in GitHub
 - git push -u origin branch1
   - syncs local committed changes to the "branch1" repo branch in GitHub
+- git pull origin master
+  - brings down all committed changes on the remote (origin) master repository, updating/syncing the local checkout branch with those changes.
+- git pull
+  - fetches new commits from all TRACKED branches from the default remote(origin)
+- git diff --name-only --cached
+  - shows all "added" (staged?) files, i.e., those ready for local commit (e.g., git commit -m "added missing files")
+- git rm -r --cached App_Themes/Integra/
+  - removes folder and containing files from git tracking (last param is path)
+- git add .
+  - adds all untracked files to the list of files being tracked
+- git commit -m "some message here"
+  - commits files locally
+- git push -u origin master
+  - commits changes to remote upstream repo (e.g., to the source GitLab repo)
